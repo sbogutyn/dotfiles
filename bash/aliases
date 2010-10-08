@@ -1,0 +1,41 @@
+# utility
+alias reload="source ~/dotfiles/bash/aliases"
+alias ea="gvim ~/dotfiles/bash/aliases && reload"
+# cd aliases
+alias ..="cd .."
+alias cdd="cd -"
+alias cdh="ch ~"
+# ls aliases
+alias l="ls -a"
+alias ll="ls -la"
+alias la="ls -laGh"
+
+
+# git aliases
+alias gi="git init"
+alias g="git status"
+alias gc="git commit -v"
+function gg() {
+	git add . && git commit -v -a -m "$*"
+
+}
+alias gco="git checkout"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gd="git diff"
+alias gp="git push"
+
+# ruby and rails 3 aliases
+alias r="rails"
+alias rg="rails generate"
+alias rc="rails console"
+alias rdb="rails dbconsole"
+alias rinfo="rails about"
+alias rmigrate="rake db:migrate"
+alias rseed="rake db:seed"
+
+# ubuntu specific
+alias install="sudo apt-get -y install"
+alias search="sudo apt-cache search"
+alias remove="sudo apt-get remove"
+
