@@ -1,6 +1,7 @@
 # utility
 alias reload="source ~/dotfiles/bash/aliases"
 alias ea="gvim ~/dotfiles/bash/aliases && reload"
+alias ua="uname -a"
 # cd aliases
 alias ..="cd .."
 alias cdd="cd -"

@@ -1,0 +1,7 @@
+Przydatne aliasy, zmienne środowiskowe i konfiguracja basha.
+Nie kasuje obecnej konfiguracji bashrc, dopsiuje do tego pliku nową konfigurację.
+Instalacja:
+1. cd ~
+2. git clone git://github.com/sbogutyn/dotfiles.git
+3. cd ~/dotfiles
+4. ./install.sh
