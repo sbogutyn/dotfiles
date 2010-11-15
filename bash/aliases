@@ -39,6 +39,7 @@ alias rseed="rake db:seed"
 alias install="sudo apt-get -y install"
 alias search="sudo apt-cache search"
 alias remove="sudo apt-get remove"
+alias upgrade="sudo apt-get update && apt-get dist-upgrade"
 
 #fullscreen vim
 alias gvim="gvim -geom 210x50"
