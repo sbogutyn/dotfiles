@@ -25,6 +25,7 @@ alias gb="git branch"
 alias gba="git branch -a"
 alias gd="git diff"
 alias gp="git push"
+alias github="git push origin master"
 
 # ruby and rails 3 aliases
 alias r="rails"
@@ -34,6 +35,9 @@ alias rdb="rails dbconsole"
 alias rinfo="rails about"
 alias rmigrate="rake db:migrate"
 alias rseed="rake db:seed"
+
+#rspec aliases
+alias rspec="rspec --color --format doc"
 
 # ubuntu specific
 alias install="sudo apt-get -y install"
