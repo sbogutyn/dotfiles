@@ -47,3 +47,7 @@ alias upgrade="sudo apt-get update && apt-get dist-upgrade"
 
 #fullscreen vim
 alias gvim="gvim -geom 210x50"
+
+
+#amazon ec2
+alias ec2="ssh -i ~/.ssh/slavokey.pem ec2-user@ec2-46-51-171-1.eu-west-1.compute.amazonaws.com"
