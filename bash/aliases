@@ -3,11 +3,14 @@ alias reload="source ~/dotfiles/bash/aliases"
 alias ea="gvim ~/dotfiles/bash/aliases && reload"
 alias ua="uname -a"
 # cd aliases
+function cs() {
+	cd "$1" && ls -l
+}
 alias ..="cd .."
 alias cdd="cd -"
 alias cdh="ch ~"
 # ls aliases
-alias l="ls -a"
+alias l="ls -l"
 alias ll="ls -la"
 alias la="ls -laGh"
 
